@@ -1,0 +1,164 @@
+<!DOCTYPE html> <!-- versiunea de html-->
+<html lang="en"><!-- tot ce este in interorul aceste este cod scris in html-->
+<head><!--head detine informati despre pagina web si supune browserului cum ar trebui sa foloseasca pagina-->
+    <!-- exista multe atribute pentru meta pe care le poti gasi pe MDN sau W3schools-->
+    <meta charset="UTF-8"><!-- Spunem browserului ca tot ce e mai jos este encoded folosind UTF 8, exista mai multe encode dar acesta este international -->
+    <meta name="description" content="This is my personal page"><!--descriere pagini care apare in cand cauti pe google-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Marius Personal Site</title><!--acesta spune browserului care este titlul acestul document sau aceste pagini -->
+
+    <!-- import fisere css -->
+    <link rel="stylesheet" href="CSS/styles.css">
+   
+    <!-- <style>
+        
+/* <!-- a doua metoda de a schimba background si a doua ca importanta,  internal style CSS--> */
+        <!-- body{
+            background-color: #a6e3e9;
+        }
+        /*exista codur css stabilite de catre browser care nu permite schibare 
+        putem cauta pe google dupa: browser default css, border-style mdn */
+        hr {
+            background-color: #a6e3e9;
+            /* border-style: dotted none none; sau*/
+            border-style: none;
+            border-top-style: dotted;
+            border-color: grey ;
+            border-width: 5px;
+
+
+            height: 0px;
+            width: 10%;/*exista mai multe posibiltati de a specifaca width una fin px alta find %*/
+            
+        }
+
+
+        img{
+            height: 200px;
+        } 
+    </style> -->
+
+
+
+</head>
+
+
+
+
+
+<!--aceasta parte va contine testul/contenul din pagina-->
+ <!-- Exista diverse metode de a schima background pagini una dintre ele este cea de mai jos
+<body style="background-color: #a6e3e9;"> change background color using css mdn > pe google -->
+<bady>    
+    <!--crem un tabel pentru aranja imaginea si imformatile despre mine pe acelasi rand
+    atributel pentru tabel nu mai sunt recomandate in zile noastre dar se foloses daca vrei 
+    sa folosesti doar HTML.
+    -->
+    <table cellspacing = 20>
+        <td>    <!--inserare imagine in pagina web-->
+            <!--sursa imagini find postata pe o retea de socializare si nu am un control asupra ei-->
+            <!-- <img src="data:image/jpeg;base64,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" alt="Marius imagine de profil"> -->
+            
+            <!--Sursa este local si am un controls asupra ei-->
+            <img src="image\circle-cropped.png" alt="Marius imagine de profil">
+        </td>
+        <td><h1>Marius Robert</h1>
+            <!--Pentru as scrie cu italice sun doua variante <i></i> sau <em></em> de preferat<em></em>
+             iar pentru bolduire avem <b></b> sau <strong></strong> de preferat <strong></strong>
+           -->
+           <p><em>Acesta este un paragraf <strong>italic</strong> </em></p>
+           <p>Sunt un Web Developer data, AI Developer si tester. Imi place sa descoper lucruri noi  </p></td>
+
+    </table>
+
+    
+    <hr>
+    <h3>Educatie</h3>
+    <!--Bullet list html mdn -> google search pentru mai multe info.-->
+    <ul>
+        <li>Finalizare licentei in Comunicare economica in afaceri </li>
+        <li>Finalizara Masterului in Economie European</li>
+        <li>Terminare cursului de programare in Python</li>
+        <li><a href="https://www.udemy.com/course/master-deep-learning-computer-visiontm-cnn-ssd-yolo-gans/">Terminat cursul Deep Learning Computer Vision™ CNN, OpenCV, YOLO, SSD & GANs</a></li>
+        <li><a href="https://www.udemy.com/course/python-data-science-machine-learning-bootcamp/">Terminarea cursului Complete 2020 Data Science & Machine Learning Bootcamp</a></li>
+
+    </ul>
+
+    <hr>
+    <!--Creare unui tabel-->
+    <h3>Studii </h3>
+    <table>
+        <!--Pentru a crea structura tabelului este necesara doar <tr></tr>
+        dar cate odata vom vrea sa selecta sau sa izolam capul tabelului si 
+        corpul tabelul  in cazul in care vrei sa ii dam un stil diferit sau
+        sa-l facem sa functioneze intr-un mod diferit.
+        <thead></thead> va cea capul tabelului      
+    -->
+        <thead>
+            <!--<tr></tr> este folosit pentru a crea randuri -->
+            <tr>
+                <!--<th></th> se foloseste pentru a crea o ceelula 
+                    iar intere tagul de open si close vom pune
+                     datele reale care vor fi puse in celula -->
+                <th>Dates</th>
+                <th>Studii</th>
+            </tr>
+        </thead>
+        <!--in timp ce <tbody></tbody> va crea continulul din tabel 
+            dar nu intodea se aplica regula asta -->
+        <tbody>
+            <tr>
+                <!--<td></td> se poate regasi si in interiorul 
+                    <thead></thead> avand acelasi rol ca si aici -->
+                <td>2014-2017</td>
+                <td>Licenta in comunicare economica in afaceri</td>
+                
+            </tr>
+            <tr>
+                <td>2017-2019</td>
+                <td>Master in Economie europeana</td>
+    
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+    <hr>
+    <h3>Skils</h3>
+   
+    <table cellspacing ="10">
+        <tr>
+            <td>Python</td>
+            <td>⭐️⭐️⭐️⭐️⭐️</td>
+            
+        </tr>
+        <tr>
+            <td>AI</td>
+            <td>⭐️⭐️⭐️</td>
+        </tr>
+        <tr>
+            <td>Tester</td>
+            <td>⭐️⭐️</td>
+            
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>⭐️⭐️⭐️⭐️</td>
+        </tr>
+
+    </table>
+   
+
+
+    <!-- un link care duce catre o alta pagina web-->
+    <a href="hobbi.html">Hobiurile mele</a>
+    <br>   
+    <a href="contact.html">Contactel mele</a>
+
+
+
+
+    
+</body>
+</html>

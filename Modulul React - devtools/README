@@ -1,0 +1,5 @@
+Continua Modul React -propietati
+si aduga o bucla pt a itera fiecare propietate din contacts.js
+functia care retruneaza html cu propietatile care le prea din contacts.js
+sunt separate in diferite componete si este chemata in functai App cu 
+ajutorul unie alte functi 

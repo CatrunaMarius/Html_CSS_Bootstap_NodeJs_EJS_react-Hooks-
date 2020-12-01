@@ -1,0 +1,33 @@
+/* a treia metoda de a schimba style si a  treia ca importanta ,external style css */
+/* selector{propietati: valoare;} #selector = cine are nevoie de style?,
+ propietatea = ce propietati in adugam(background, culoare,pozitie)?,
+  valoarea = cum vrei sa schimbi? (vre sa fie albastru,rosu) */
+
+body{
+    background-color: #a6e3e9;
+}
+/*exista codur css stabilite de catre browser care nu permite schibare 
+putem cauta pe google dupa: browser default css, border-style mdn */
+hr {
+    background-color: #a6e3e9;
+    /* border-style: dotted none none; sau*/
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey ;
+    border-width: 5px;
+
+
+    height: 0px;
+    width: 10%;/*exista mai multe posibiltati de a specifaca width una fin px alta find %*/
+    
+}
+
+
+img{
+    height: 200px;
+}
+
+/* search pe google dupa: change text color css */
+h1, h3 {
+    color: #66BFBF;
+}

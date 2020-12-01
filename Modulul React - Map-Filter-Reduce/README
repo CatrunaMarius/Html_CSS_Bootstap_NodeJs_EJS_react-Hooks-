@@ -1,0 +1,17 @@
+EXplicatie cu functioneaza
+Map, Filter, Reduce, Find si FindIndex
+si care este echivaletul fiecare dintre ele.
+
+//challenge solved
+preaia din arrey-ul emojipedia doar meanig din fiecare abiect
+si retruneaza doar primele 100 de caractere
+
+
+var meaning = emojipedia.map(function(num){
+   var meanings = num.meaning
+   
+   return meanings.substring(0,100)
+    // return meanings
+})
+
+console.log(meaning);

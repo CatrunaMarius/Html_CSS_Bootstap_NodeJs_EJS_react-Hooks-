@@ -1,0 +1,10 @@
+aici am instalat modulul npm expre 
+pt al folosi consulta documentatia lui 
+este cheamta si alocata unei constante -> const express = require("express")
+se folosest o consanta pt a putea fi folisita ->const app = express()
+
+acest modul este un servar,si are diferit utilizari
+metoda .get este folosit pt a potine informatia
+res(response) este folisita pt a primi un mesaj/un raspuns de la servar
+metoda .listen este folosita sa asculte la ce port este deschisa aplicatia
+

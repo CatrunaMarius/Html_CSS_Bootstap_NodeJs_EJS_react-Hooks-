@@ -1,0 +1,8 @@
+Aceasta find varinata lunga a modulului react -Changing Complex State practica
+Destructurarea unei constante 
+Atribuirea functiei useState un obj cu:
+    fName: "",
+    lName: "",
+    email: ""
+
+crearea une functi care prea inputul introdus

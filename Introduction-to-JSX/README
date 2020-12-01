@@ -1,0 +1,3 @@
+Introducere in JSX
+
+// func render acepta dor un singur element HTML dar putem aduga mai multe elemete HTML daca le adugam in interiorul unei <div></div>

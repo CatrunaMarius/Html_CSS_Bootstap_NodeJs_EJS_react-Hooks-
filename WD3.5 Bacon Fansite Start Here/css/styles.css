@@ -1,0 +1,41 @@
+/* o buna practica ar fi daca propietatile selctorului ar aranjate in ordine alfabetica */
+/*********************TAG SELECTORS*********************/
+h1{
+    color: red;
+    font-size: 200px;
+}
+
+/* sudo propietate un exemplu este :hover si atunci cand treci 
+cu mousul desupra imagini va schimba culoare background-ului in galben */
+img:hover{
+    background-color: gold;
+}
+
+/*********************CLASS SELECTORS******************/
+
+
+.bacon{
+    background-color: green;
+}
+
+.brocoli{
+    background-color: red;
+}
+
+.cerc{
+    border-radius: 100%;
+}
+/*********************ID SELECTORS******************/
+/* diferenta dintre class si id este ca id nu poate avea acelasi denumire intr-o pagina
+pe cand class poate avea acelasi nume de mai multe ori intr-o pagina.
+o alta diferenta intre id si class este acea ca un element nu poate a avea doua diferite id */
+/* cand valoare selectat e mul mai specific acesta ii va lua propiet cele de dinainte
+adica propietate lui #heading are prioritate fata de h1  */
+#heading{
+    color: blue;
+}
+
+#big{
+    font-size: 1000px;
+
+}

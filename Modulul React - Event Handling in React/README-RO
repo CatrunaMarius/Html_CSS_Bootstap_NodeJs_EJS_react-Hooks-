@@ -1,0 +1,12 @@
+Continuma sa folosi ce am invata in Modulu react -useState Hooks
+si aici folosi doua useState
+una care se va ocupa de test
+si cea lata se va ocupa de MouseOver
+
+functionalitate
+-primul useState va functiona in interiorul <h1></h1>
+-al doilea useState va functiona in interiorul butonulu,
+    acesta avand functionalitatea atunci cand trecem 
+    cu mous-ul deasupra lui acesta sa schimbe culoare in negru
+    si cand maus-ul nu este deasupra lui sa revina 
+    la culoare lui originala (alba)

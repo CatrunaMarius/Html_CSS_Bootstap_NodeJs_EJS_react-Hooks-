@@ -1,0 +1,5 @@
+Cum folosim if stament in interiorul uniu html
+si aici gasim doua exemple
+
+Ex:
+    currentHour >12 &&  <h1>Why are you still working</h1>

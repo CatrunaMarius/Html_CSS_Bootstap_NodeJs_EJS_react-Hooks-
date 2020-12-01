@@ -1,0 +1,8 @@
+instalare unor npm 
+si am install npm superhero -i si npm supervillains -i
+acest doua module npm generaza rendom nume  de superhero/supervillains
+
+aici este prezentata si metoda de folosire a cestor doua module npm
+si in general cum sunt importate/chemate |Ex.: require("npmName")| - module npm pt al folosi mai incolo in proiect
+
+utilizarea lor difera si de acea trebui sa verifici documentatia moduluilui respectiv

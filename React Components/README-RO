@@ -1,0 +1,11 @@
+De Retinut
+// de retinut ca App.jsx este cel care va contine toate functionalitatile pagini web/componetele jsx
+// Si de obicei fisiere jsx vor fi plasate intr-un nou folder numit componete
+// si acest foldar la randul lui poate fi inpartit in componet login, componet registre, etc,
+
+Functionalitatii
+creiare a trei componete care vor returna html
+header si list returneaza html in 
+interiorul componentei App.jsx si App.jsx 
+retruneaza html celor doua componete in interiorul 
+functiei de randare din index.js

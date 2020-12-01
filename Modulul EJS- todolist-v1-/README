@@ -1,0 +1,41 @@
+Specificati
+structura Html
+este inpartita acum in header, bady(list.ejs) si foote
+
+importa module npm ca constante si avem
+ express si bady-parser 
+ importa fisier javaScript tot ca constanta 
+    Ex:const date = require(__dirname + "/date.js")
+
+- pt a folosi express ne trebuie o alta constanta (app)
+si pt a folosi ejs avem nevoi de:
+    app.set('view engine', 'ejs');
+- si pt a folosi fara problem body-parser avem nevoid de:
+    app.use(bodyParser.urlencoded({extended: true}));
+- pt a folosi propriul nostru style.css 
+avem noie sa importam urmatoarea linie 
+care spune unde se afla css:
+    app.use(express.static("public"))
+
+-in functia de get("/") la respuns folosim o alta metoda numita render,
+care ne premite sa folosi cate va functinalitai 
+    Aici ne da ce zi din saptaman este,
+    randeaza si itemel pe care le gaseste in array
+    brelund aceste functionalitati din list.ejs
+    res.render("list", {kindOfDay: day, newListItems: items});
+
+-in functia post("/") gasim o constanta care prea functinalitatea
+button + (const item = req.body.newItem;)
+    pt ca avem doua pagini ( home/"/" si work/"/work")
+    si pt a pastraa functinalita const item pt able bagi
+    folosi if /eles pt a le distibui in diferite array
+    =========== Model ============
+    if (req.body.list === "work"){
+        workItems.push(item);
+        res.redirect("/work");
+    }else{
+        items.push(item);
+        res.redirect("/");
+    }
+    ===================================
+

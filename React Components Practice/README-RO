@@ -1,0 +1,7 @@
+cheama componeta functionala Header in interiorul App.js
+functionalitatea Header
+in functie de ora va afisa un mesaj de intampinare
+Ex:
+daca ceasul este pana in ora 12  va spune: "Good Morning"; scris cu culoare rosi
+daca ceasul este intre 12-18  va spune:"Good Afternoon"; scris cu culoare verde
+dacaceasul este peste ora 18 va spune: "Good Night"; cu culoare albastra

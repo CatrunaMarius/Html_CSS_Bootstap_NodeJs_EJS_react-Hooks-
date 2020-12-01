@@ -1,0 +1,30 @@
+Acest proiect este axat pe crearea un todolist
+
+-folosim useState pt a se ocupa de inputurile indroduse de utilizator
+-folosim useState pt a se ocupa de adugarea in lista a itemului 
+    cand se apasa click pe "+"
+-pt a prelua functionalitatile de mai sus am implementat 
+    doua functi care se ocupa de input si addItem la un click
+- tot odata pentru a afisa acele iteme introduse am folosit map() loop
+        {item.map((todoItem) => (
+            <li>{todoItem}</li>
+          ))}
+
+Emplementare:
+
+    const [inputItem, setInputItem] = useState("");
+    const [item, setAdd] = useState([]);
+
+    function headleChange(event) {
+        const newValue = event.target.value;
+
+        setInputItem(newValue);
+    }
+
+    function addItems() {
+        setAdd((prevItems) => {
+        return [...prevItems, inputItem];
+        });
+        setInputItem("");
+    }
+    

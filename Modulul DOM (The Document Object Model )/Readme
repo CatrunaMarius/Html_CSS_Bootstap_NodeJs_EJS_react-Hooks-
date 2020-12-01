@@ -1,0 +1,14 @@
+modul de implementare a javaScript in Html:
+<!--Un prim mod de folosire a javascript.dar aceasta nu este o buna practica: 
+    <body onload="alert('Hello');"> -->
+<!-- un al doilea mod de folosire a javaScript este acesta: 
+    <script type="text/javascript">
+    alert("Hello");
+    </script>  -->
+<!-- Al treilea mod de folosire a javascript este acesta de crea un link cu un fisier js.
+             e bine de stiu ca pozitia lui conteaza si cea mai buna practica ar fi sa fie folosit 
+             jos de tot deasuprea </body> : -->
+
+JavaScript poate fi folisit si pt a scimba culorile lafe ca si css, si aici gasim cateva exemple de implementare
+tot aici vedem si cum sa implementat cu ajutorul html si css schimbarea de culoare
+

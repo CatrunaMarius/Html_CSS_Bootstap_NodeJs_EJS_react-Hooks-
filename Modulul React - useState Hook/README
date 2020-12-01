@@ -1,0 +1,9 @@
+fuctionalitati
+ca apesi click pe butonu + va creste cu 1
+cand apesi click pe butonul - va scadea cu 1
+cifra este preluata de count in interiorul Html
+
+Foloseste useState (care seste setata ca zero)
+acasta prea doua constante/o constanta si o functie 
+    Respectiv count si setCount
+
